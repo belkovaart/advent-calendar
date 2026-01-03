@@ -149,7 +149,7 @@ function updateCardsState() {
 
       if (lockedEl) {
         const unlock = getUnlockDateForDay(day);
-        lockedEl.title = `Will be available ${formatRuDate(unlock)}`;
+        lockedEl.title = `It will be available on ${formatRuDate(unlock)}`;
       }
       return;
     }
@@ -194,7 +194,7 @@ function updateCardsState() {
 
     if (lockedEl) {
       const unlock = getUnlockDateForDay(day);
-      lockedEl.title = `Will be available ${formatRuDate(unlock)}`;
+      lockedEl.title = `It will be available on ${formatRuDate(unlock)}`;
     }
   });
 }
@@ -237,6 +237,7 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
 
 
 
