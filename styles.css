@@ -225,8 +225,7 @@ body::before {
 }
 
 .day-card__action--locked {
-    background: #14021B;
-    transperent: 70%;
+    background: #14021ba3;
     border: 1px solid rgba(255, 255, 255, .12);
     color: rgba(255, 255, 255, .70);
     font-weight: 400;
@@ -413,6 +412,7 @@ body::before {
     line-height: 1.05;
 
 }
+
 
 
 
