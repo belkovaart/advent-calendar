@@ -138,7 +138,7 @@ function updateCardsState() {
     if (content) content.setAttribute("aria-hidden", "true");
     if (previewWrap) previewWrap.setAttribute("aria-hidden", "true");
     if (previewText) {
-      previewText.textContent = "день прошёл";
+      previewText.textContent = "past day";
       previewText.removeAttribute("title");
     }
     if (lockedEl) lockedEl.removeAttribute("title");
@@ -149,7 +149,7 @@ function updateCardsState() {
 
       if (lockedEl) {
         const unlock = getUnlockDateForDay(day);
-        lockedEl.title = `Будет доступно ${formatRuDate(unlock)}`;
+        lockedEl.title = `Will be available ${formatRuDate(unlock)}`;
       }
       return;
     }
@@ -194,7 +194,7 @@ function updateCardsState() {
 
     if (lockedEl) {
       const unlock = getUnlockDateForDay(day);
-      lockedEl.title = `Будет доступно ${formatRuDate(unlock)}`;
+      lockedEl.title = `Will be available ${formatRuDate(unlock)}`;
     }
   });
 }
@@ -237,5 +237,6 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
 
 
