@@ -113,7 +113,7 @@ body::before {
 
 .banner__title {
     margin: 0 0 10px;
-    font-size: 30px;
+    font-size: 1.7rem;
     font-weight: 800;
 }
 
@@ -174,7 +174,7 @@ body::before {
 
 .day-card__title {
     color: #FFF;
-    font-size: 30px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -407,10 +407,11 @@ body::before {
 
 .extra-tile__text {
     margin: 0;
-    font-size: 30rem;
+    font-size: 1.7rem;
     font-weight: 900;
     line-height: 1.05;
 
 }
+
 
 
