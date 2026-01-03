@@ -92,8 +92,10 @@ body::before {
 
 .header__range {
     margin: 0;
+    padding: 20px 10px;
+    background-color: #2C1E30;
     color: rgba(255, 255, 255, .80);
-    font-size: 18px;
+    font-size: 1rem;
     margin-right: 1rem;
 }
 
@@ -412,6 +414,7 @@ body::before {
     line-height: 1.05;
 
 }
+
 
 
 
