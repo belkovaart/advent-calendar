@@ -112,7 +112,7 @@ body::before {
 }
 
 .banner__title {
-    margin: 0 0 20px;
+    margin: 0 0 1rem;
     font-size: 1.7rem;
     font-weight: 800;
 }
@@ -412,6 +412,7 @@ body::before {
     line-height: 1.05;
 
 }
+
 
 
 
