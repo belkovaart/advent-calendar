@@ -160,12 +160,11 @@ function updateCardsState() {
 
       if (previewWrap) previewWrap.setAttribute("aria-hidden", "false");
 
-      if (previewText && openedDays.has(day)) {
-        const text = OFFERS[day] ?? "";
-        previewText.textContent =
-          text.length > 40 ? text.slice(0, 40) + "…" : text;
-        previewText.title = text; // полный текст при наведении
-      }
+      if (previewText) {
+  const text = OFFERS[day] ?? "";
+  previewText.textContent = text.length > 40 ? text.slice(0, 40) + "…" : text;
+  previewText.title = text; // полный текст при наведении
+}
 
       return;
     }
@@ -237,6 +236,7 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
 
 
 
