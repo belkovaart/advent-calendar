@@ -17,11 +17,11 @@ const STORAGE_KEY = "advent_opened_days_2026";
 const OFFERS = {
   1: "Today we will be launching fireworks 🎆",
   2: "Today we're sliding down the hill and sipping mulled wine!🍷",
-  3: "Пора испытать поводья 😉",
-  4: "Зайдёт медсестра проверить самочувствие",
-  5: "Варим глинтвейн и слушаем музыку",
-  6: "Сегодня к тебе придёт монашка, почистить твою душу ✨",
-  7: "Ты чист и свеж, розовая девушка благославит тебя на отличный год 🎁",
+  3: "We'll listen to music and dance 🎵",
+  4: "Making a snowman ⛄️",
+  5: "We're going to buy a pink dress today 👗",
+  6: "Today we bake cookies, pie and invite guests ✨",
+  7: "We are ready to survive this year, today we will write a plan 🎁",
 };
 
 /* =========================
@@ -237,6 +237,7 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
 
 
 
