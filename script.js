@@ -76,7 +76,7 @@ function getUnlockDateForDay(day) {
 
 function formatRuDate(date) {
   // "1 января"
-  return new Intl.DateTimeFormat("ru-RU", {
+  return new Intl.DateTimeFormat("en-EN", {
     day: "numeric",
     month: "long",
   }).format(date);
@@ -237,6 +237,7 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
 
 
 
