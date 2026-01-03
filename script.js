@@ -8,7 +8,7 @@
 const CONFIG = {
   year: 2026,
   mode: "TEST", // <- на время тестов поставь "TEST"
-  testDay: 2, // <- для TEST: 1..7
+  testDay: 3, // <- для TEST: 1..7
 };
 
 const STORAGE_KEY = "advent_opened_days_2026";
@@ -236,6 +236,7 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
 
 
 
